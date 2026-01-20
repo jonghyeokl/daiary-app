@@ -7,8 +7,8 @@ import { ThemedView } from '@/components/themed-view';
 import { login } from '@/lib/api/user';
 
 export default function LoginModal() {
-  const [email, setEmail] = useState('test@example.com');
-  const [password, setPassword] = useState('test-password');
+  const [email, setEmail] = useState('oneashxx@gmail.com');
+  const [password, setPassword] = useState('1234');
   const [isLoading, setIsLoading] = useState(false);
 
   const onSubmit = async () => {
